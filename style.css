@@ -1,0 +1,91 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+margin: 0;
+padding: 30px;
+}
+
+/* Header */
+header {
+text-align: center;
+margin-bottom: 25px;
+}
+
+header h1 {
+margin-bottom: 10px;
+}
+
+header p {
+color: #666;
+}
+
+/* Form */
+form {
+background-color: white;
+max-width: 400px;
+margin: auto;
+padding: 20px;
+border-radius: 10px;
+}
+
+form div {
+margin-bottom: 15px;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+}
+
+button {
+padding: 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+form button {
+width: 100%;
+background-color: #333;
+color: white;
+}
+
+/* Student Cards */
+#student-list {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+gap: 15px;
+margin-top: 20px;
+}
+
+.student-card {
+background-color: white;
+padding: 15px;
+border-radius: 10px;
+}
+
+.remove-btn {
+background-color: red;
+color: white;
+width: 100%;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+#student-list {
+grid-template-columns: repeat(3, 1fr);
+}
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+#student-list {
+grid-template-columns: 1fr;
+}
+}
