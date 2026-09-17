@@ -5,7 +5,7 @@ margin: 0;
 padding: 30px;
 }
 
-/* Header */
+
 header {
 text-align: center;
 margin-bottom: 25px;
@@ -19,7 +19,7 @@ header p {
 color: #666;
 }
 
-/* Form */
+
 form {
 background-color: white;
 max-width: 400px;
@@ -56,7 +56,7 @@ background-color: #333;
 color: white;
 }
 
-/* Student Cards */
+
 #student-list {
 display: grid;
 grid-template-columns: repeat(5, 1fr);
@@ -76,14 +76,14 @@ color: white;
 width: 100%;
 }
 
-/* Tablet */
+
 @media (max-width: 1024px) {
 #student-list {
 grid-template-columns: repeat(3, 1fr);
 }
 }
 
-/* Mobile */
+
 @media (max-width: 600px) {
 #student-list {
 grid-template-columns: 1fr;
